@@ -518,7 +518,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/ESP32-S3-Mini-WIFI/D+"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -678,7 +683,7 @@
         "uuid": "962e0ac6-7545-4a58-b6cb-cae1d23e787f"
       }
     ],
-    "used_designators": "R11-12,J1,ESP1,#PWR34-36,SW3-4,Debug1,Flash1,Pico1",
+    "used_designators": "#PWR43-54,C17,C25-27,R13-18,Card1,SW4-5,Power1",
     "variants": []
   },
   "sheets": [

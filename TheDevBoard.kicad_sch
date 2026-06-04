@@ -12,8 +12,88 @@
 		(comment 1 "progenor")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 132.08 93.98) (xy 156.21 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c8653cb-1d9f-47e8-a075-b005f18c391a")
+	)
+	(wire
+		(pts
+			(xy 132.08 111.76) (xy 156.21 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42329870-e2c5-4cae-b8fe-2fd90e7180ee")
+	)
+	(wire
+		(pts
+			(xy 132.08 114.3) (xy 156.21 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d71d6d4-fb02-45ce-a159-8a545428dd8e")
+	)
+	(wire
+		(pts
+			(xy 132.08 109.22) (xy 156.21 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eedba28-0cda-4cdd-8403-ed08e7841239")
+	)
+	(wire
+		(pts
+			(xy 132.08 106.68) (xy 156.21 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982e4802-07e4-4488-b884-519f05c3cede")
+	)
+	(wire
+		(pts
+			(xy 132.08 96.52) (xy 156.21 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aabff6f5-39a9-40f2-bb0d-1b81d0c6d325")
+	)
+	(wire
+		(pts
+			(xy 132.08 116.84) (xy 156.21 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e55daa8a-b470-431c-a42d-5a824a9205d2")
+	)
+	(wire
+		(pts
+			(xy 132.08 104.14) (xy 156.21 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f569f8dd-3b36-4566-a250-d5108e617d8e")
+	)
 	(sheet
-		(at 189.23 123.19)
+		(at 236.22 121.92)
 		(size 39.37 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29,7 +109,7 @@
 		)
 		(uuid "74cdae6e-117b-472f-b18c-40b551ce970e")
 		(property "Sheetname" "Sensors"
-			(at 189.23 122.4784 0)
+			(at 236.22 121.2084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40,7 +120,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 189.23 156.7946 0)
+			(at 236.22 155.5246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59,7 +139,7 @@
 		)
 	)
 	(sheet
-		(at 30.48 50.8)
+		(at 97.79 81.28)
 		(size 34.29 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -75,7 +155,7 @@
 		)
 		(uuid "83027dc2-8dcc-4189-b732-ecb78df2ee53")
 		(property "Sheetname" "RP2350"
-			(at 30.48 50.0884 0)
+			(at 97.79 80.5684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -86,7 +166,7 @@
 			)
 		)
 		(property "Sheetfile" "RP2350.kicad_sch"
-			(at 30.48 95.8346 0)
+			(at 97.79 126.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -94,6 +174,86 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DataReadyInt" input
+			(at 132.08 116.84 0)
+			(uuid "5205a62b-3a49-4112-bb97-a89d2759cc2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Handshake" input
+			(at 132.08 114.3 0)
+			(uuid "bdef638a-7103-4b67-bf53-d3ce5efa4409")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPIO_CS" input
+			(at 132.08 111.76 0)
+			(uuid "06d539f8-685b-4916-a945-e61c96e8ab6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPIO_RX" input
+			(at 132.08 109.22 0)
+			(uuid "7814f81b-abcf-4587-b324-d6e5773c1697")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPIO_SCK" input
+			(at 132.08 106.68 0)
+			(uuid "1d203673-2fe3-408a-9cb9-71e4e3255787")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPIO_TX" input
+			(at 132.08 104.14 0)
+			(uuid "195afc28-1f5b-495e-b220-e4106dddcf4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_RX" input
+			(at 132.08 96.52 0)
+			(uuid "b2964684-e0d6-4db7-b467-ae4e9f22f443")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_TX" input
+			(at 132.08 93.98 0)
+			(uuid "bd5a05da-4076-4f27-88ce-ecd67fc70424")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -105,7 +265,7 @@
 		)
 	)
 	(sheet
-		(at 114.3 62.23)
+		(at 25.4 24.13)
 		(size 35.56 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -121,7 +281,7 @@
 		)
 		(uuid "ae0a7a8a-1df6-495f-aa05-5731f69543ea")
 		(property "Sheetname" "Power"
-			(at 114.3 61.5184 0)
+			(at 25.4 23.4184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -132,7 +292,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 114.3 97.1046 0)
+			(at 25.4 59.0046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -151,7 +311,7 @@
 		)
 	)
 	(sheet
-		(at 31.75 127)
+		(at 156.21 82.55)
 		(size 40.64 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -163,11 +323,11 @@
 			(type solid)
 		)
 		(fill
-			(color 255 74 218 1)
+			(color 0 0 0 0)
 		)
 		(uuid "c6b54007-79c8-40fd-afa4-387886b604be")
 		(property "Sheetname" "ESP32-S3-Mini-WIFI"
-			(at 31.75 126.2884 0)
+			(at 156.21 81.8384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -178,7 +338,7 @@
 			)
 		)
 		(property "Sheetfile" "Wifi.kicad_sch"
-			(at 31.75 170.7646 0)
+			(at 156.21 126.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -186,6 +346,86 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DataReadyInt" input
+			(at 156.21 116.84 180)
+			(uuid "712e24e6-a3de-44c3-b754-eb33b79371b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FSPICLK" input
+			(at 156.21 106.68 180)
+			(uuid "27f67939-f5fe-4f37-85ee-5902bf26b061")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FSPICS0" input
+			(at 156.21 111.76 180)
+			(uuid "3c562baa-282c-4931-9104-5338c370cf0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FSPID" input
+			(at 156.21 104.14 180)
+			(uuid "1bbb5872-ea65-4f7e-a128-ed05e7570033")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FSPIQ" input
+			(at 156.21 109.22 180)
+			(uuid "65b481cd-5b4e-45f9-9d3f-98de82ac3007")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Handshake" input
+			(at 156.21 114.3 180)
+			(uuid "500e46b1-bd00-4853-bed7-eb9196ef5080")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_RX_ESP" input
+			(at 156.21 93.98 180)
+			(uuid "65616804-56f1-47fe-85d1-877c508987c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_TX_ESP" input
+			(at 156.21 96.52 180)
+			(uuid "c10ae528-02c8-4517-9185-782c39a250b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -197,7 +437,7 @@
 		)
 	)
 	(sheet
-		(at 201.93 59.69)
+		(at 237.49 29.21)
 		(size 34.29 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -213,7 +453,7 @@
 		)
 		(uuid "deba09e8-545f-4a4a-8546-25fcc5ebb77e")
 		(property "Sheetname" "FPGA"
-			(at 201.93 58.9784 0)
+			(at 237.49 28.4984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -224,7 +464,7 @@
 			)
 		)
 		(property "Sheetfile" "FPGA.kicad_sch"
-			(at 201.93 100.9146 0)
+			(at 237.49 70.4346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
