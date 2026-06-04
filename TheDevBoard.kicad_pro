@@ -615,7 +615,7 @@
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -678,7 +678,7 @@
         "uuid": "962e0ac6-7545-4a58-b6cb-cae1d23e787f"
       }
     ],
-    "used_designators": "R11-12,J1,#PWR34-36,SW3-4",
+    "used_designators": "R11-12,J1,ESP1,#PWR34-36,SW3-4,Debug1,Flash1,Pico1",
     "variants": []
   },
   "sheets": [

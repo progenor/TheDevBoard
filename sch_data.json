@@ -1,24 +1,17 @@
 [
     {
         "sheet_name": "Main Sheet",
-        "sheet_path": "D:/code/PCB/TheDevBoard/TheDevBoard.kicad_sch",
+        "sheet_path": "D:\\code\\PCB\\TheDevBoard\\TheDevBoard.kicad_sch",
         "paper": {
             "paper_height": 210,
             "paper_width": 297
         },
-        "symbols": [
-            {
-                "reference": "U3",
-                "x_position": 146.05,
-                "y_position": 87.63,
-                "rotation": 0
-            }
-        ],
+        "symbols": [],
         "sheet_files": [
             {
                 "sheet_name": "Sensors",
                 "sheet_file": "Sensors.kicad_sch",
-                "sheet_path": "D:/code/PCB/TheDevBoard\\Sensors.kicad_sch",
+                "sheet_path": "D:\\code\\PCB\\TheDevBoard\\Sensors.kicad_sch",
                 "x_position": 189.23,
                 "y_position": 156.7946,
                 "rotation": 0
@@ -26,23 +19,23 @@
             {
                 "sheet_name": "RP2350",
                 "sheet_file": "RP2350.kicad_sch",
-                "sheet_path": "D:/code/PCB/TheDevBoard\\RP2350.kicad_sch",
+                "sheet_path": "D:\\code\\PCB\\TheDevBoard\\RP2350.kicad_sch",
                 "x_position": 30.48,
                 "y_position": 95.8346,
                 "rotation": 0
             },
             {
-                "sheet_name": "ControllersExtensions",
-                "sheet_file": "ControllersExtensions.kicad_sch",
-                "sheet_path": "D:/code/PCB/TheDevBoard\\ControllersExtensions.kicad_sch",
-                "x_position": 118.11,
-                "y_position": 165.6846,
+                "sheet_name": "Power",
+                "sheet_file": "Power.kicad_sch",
+                "sheet_path": "D:\\code\\PCB\\TheDevBoard\\Power.kicad_sch",
+                "x_position": 114.3,
+                "y_position": 97.1046,
                 "rotation": 0
             },
             {
                 "sheet_name": "ESP32-S3-Mini-WIFI",
                 "sheet_file": "Wifi.kicad_sch",
-                "sheet_path": "D:/code/PCB/TheDevBoard\\Wifi.kicad_sch",
+                "sheet_path": "D:\\code\\PCB\\TheDevBoard\\Wifi.kicad_sch",
                 "x_position": 31.75,
                 "y_position": 170.7646,
                 "rotation": 0
@@ -50,7 +43,7 @@
             {
                 "sheet_name": "FPGA",
                 "sheet_file": "FPGA.kicad_sch",
-                "sheet_path": "D:/code/PCB/TheDevBoard\\FPGA.kicad_sch",
+                "sheet_path": "D:\\code\\PCB\\TheDevBoard\\FPGA.kicad_sch",
                 "x_position": 201.93,
                 "y_position": 100.9146,
                 "rotation": 0
@@ -59,16 +52,16 @@
     },
     {
         "sheet_name": "Sensors",
-        "sheet_path": "D:/code/PCB/TheDevBoard\\Sensors.kicad_sch",
+        "sheet_path": "D:\\code\\PCB\\TheDevBoard\\Sensors.kicad_sch",
         "paper": {
             "paper_height": 210,
             "paper_width": 297
         },
         "symbols": [
             {
-                "reference": "U4",
-                "x_position": 142.24,
-                "y_position": 93.98,
+                "reference": "IMU1",
+                "x_position": 139.7,
+                "y_position": 101.6,
                 "rotation": 0
             }
         ],
@@ -76,53 +69,412 @@
     },
     {
         "sheet_name": "RP2350",
-        "sheet_path": "D:/code/PCB/TheDevBoard\\RP2350.kicad_sch",
+        "sheet_path": "D:\\code\\PCB\\TheDevBoard\\RP2350.kicad_sch",
         "paper": {
             "paper_height": 210,
             "paper_width": 297
         },
         "symbols": [
             {
+                "reference": "#PWR026",
+                "x_position": 259.08,
+                "y_position": 33.02,
+                "rotation": 0
+            },
+            {
+                "reference": "Flash",
+                "x_position": 118.11,
+                "y_position": 102.87,
+                "rotation": 0
+            },
+            {
+                "reference": "C13",
+                "x_position": 224.79,
+                "y_position": 40.64,
+                "rotation": 0
+            },
+            {
+                "reference": "C9",
+                "x_position": 110.49,
+                "y_position": 175.26,
+                "rotation": 0
+            },
+            {
+                "reference": "C1",
+                "x_position": 154.94,
+                "y_position": 54.61,
+                "rotation": 0
+            },
+            {
+                "reference": "R4",
+                "x_position": 49.53,
+                "y_position": 165.1,
+                "rotation": 180
+            },
+            {
+                "reference": "#PWR016",
+                "x_position": 36.83,
+                "y_position": 180.34,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR08",
+                "x_position": 173.99,
+                "y_position": 41.91,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR06",
+                "x_position": 173.99,
+                "y_position": 29.21,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR035",
+                "x_position": 118.11,
+                "y_position": 179.07,
+                "rotation": 0
+            },
+            {
+                "reference": "Debug",
+                "x_position": 113.03,
+                "y_position": 138.43,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR05",
+                "x_position": 195.58,
+                "y_position": 26.67,
+                "rotation": 0
+            },
+            {
+                "reference": "C8",
+                "x_position": 110.49,
+                "y_position": 80.01,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR022",
+                "x_position": 139.7,
+                "y_position": 184.15,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR07",
+                "x_position": 182.88,
+                "y_position": 151.13,
+                "rotation": 0
+            },
+            {
+                "reference": "R8",
+                "x_position": 153.67,
+                "y_position": 87.63,
+                "rotation": 90
+            },
+            {
+                "reference": "#PWR09",
+                "x_position": 187.96,
+                "y_position": 39.37,
+                "rotation": 0
+            },
+            {
+                "reference": "SW3",
+                "x_position": 123.19,
+                "y_position": 170.18,
+                "rotation": 0
+            },
+            {
+                "reference": "C4",
+                "x_position": 71.12,
+                "y_position": 34.29,
+                "rotation": 0
+            },
+            {
+                "reference": "C5",
+                "x_position": 99.06,
+                "y_position": 34.29,
+                "rotation": 0
+            },
+            {
+                "reference": "R2",
+                "x_position": 55.88,
+                "y_position": 46.99,
+                "rotation": 0
+            },
+            {
                 "reference": "U1",
-                "x_position": 151.13,
-                "y_position": 96.52,
+                "x_position": 185.42,
+                "y_position": 100.33,
+                "rotation": 0
+            },
+            {
+                "reference": "R5",
+                "x_position": 52.07,
+                "y_position": 116.84,
+                "rotation": 270
+            },
+            {
+                "reference": "R3",
+                "x_position": 64.77,
+                "y_position": 46.99,
+                "rotation": 0
+            },
+            {
+                "reference": "SW1",
+                "x_position": 41.91,
+                "y_position": 171.45,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR024",
+                "x_position": 110.49,
+                "y_position": 184.15,
+                "rotation": 0
+            },
+            {
+                "reference": "R1",
+                "x_position": 148.59,
+                "y_position": 50.8,
+                "rotation": 90
+            },
+            {
+                "reference": "C2",
+                "x_position": 185.42,
+                "y_position": 29.21,
+                "rotation": 90
+            },
+            {
+                "reference": "C3",
+                "x_position": 184.15,
+                "y_position": 40.64,
+                "rotation": 90
+            },
+            {
+                "reference": "#PWR03",
+                "x_position": 140.97,
+                "y_position": 48.26,
+                "rotation": 0
+            },
+            {
+                "reference": "C12",
+                "x_position": 259.08,
+                "y_position": 40.64,
+                "rotation": 0
+            },
+            {
+                "reference": "C15",
+                "x_position": 213.36,
+                "y_position": 40.64,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR014",
+                "x_position": 55.88,
+                "y_position": 54.61,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR013",
+                "x_position": 99.06,
+                "y_position": 25.4,
+                "rotation": 0
+            },
+            {
+                "reference": "R7",
+                "x_position": 144.78,
+                "y_position": 85.09,
+                "rotation": 90
+            },
+            {
+                "reference": "#PWR04",
+                "x_position": 154.94,
+                "y_position": 60.96,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR018",
+                "x_position": 49.53,
+                "y_position": 180.34,
+                "rotation": 0
+            },
+            {
+                "reference": "C7",
+                "x_position": 49.53,
+                "y_position": 175.26,
+                "rotation": 0
+            },
+            {
+                "reference": "C10",
+                "x_position": 144.78,
+                "y_position": 176.53,
+                "rotation": 0
+            },
+            {
+                "reference": "Pico",
+                "x_position": 30.48,
+                "y_position": 43.18,
+                "rotation": 0
+            },
+            {
+                "reference": "C6",
+                "x_position": 107.95,
+                "y_position": 34.29,
+                "rotation": 0
+            },
+            {
+                "reference": "U4",
+                "x_position": 85.09,
+                "y_position": 27.94,
+                "rotation": 0
+            },
+            {
+                "reference": "R11",
+                "x_position": 132.08,
+                "y_position": 170.18,
+                "rotation": 270
+            },
+            {
+                "reference": "#PWR025",
+                "x_position": 172.72,
+                "y_position": 54.61,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR012",
+                "x_position": 57.15,
+                "y_position": 24.13,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR011",
+                "x_position": 85.09,
+                "y_position": 41.91,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR01",
+                "x_position": 118.11,
+                "y_position": 119.38,
+                "rotation": 0
+            },
+            {
+                "reference": "SW2",
+                "x_position": 43.18,
+                "y_position": 116.84,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR02",
+                "x_position": 118.11,
+                "y_position": 72.39,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR017",
+                "x_position": 49.53,
+                "y_position": 160.02,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR023",
+                "x_position": 144.78,
+                "y_position": 184.15,
+                "rotation": 0
+            },
+            {
+                "reference": "C11",
+                "x_position": 248.92,
+                "y_position": 40.64,
+                "rotation": 0
+            },
+            {
+                "reference": "L1",
+                "x_position": 190.5,
+                "y_position": 44.45,
+                "rotation": 90
+            },
+            {
+                "reference": "#PWR021",
+                "x_position": 120.65,
+                "y_position": 184.15,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR010",
+                "x_position": 25.4,
+                "y_position": 69.85,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR027",
+                "x_position": 259.08,
+                "y_position": 46.99,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR015",
+                "x_position": 64.77,
+                "y_position": 54.61,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR020",
+                "x_position": 38.1,
+                "y_position": 125.73,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR019",
+                "x_position": 110.49,
+                "y_position": 85.09,
+                "rotation": 0
+            },
+            {
+                "reference": "C16",
+                "x_position": 236.22,
+                "y_position": 40.64,
+                "rotation": 0
+            },
+            {
+                "reference": "U5",
+                "x_position": 128.27,
+                "y_position": 170.18,
+                "rotation": 0
+            },
+            {
+                "reference": "C14",
+                "x_position": 201.93,
+                "y_position": 40.64,
+                "rotation": 0
+            },
+            {
+                "reference": "R6",
+                "x_position": 152.4,
+                "y_position": 125.73,
+                "rotation": 270
+            },
+            {
+                "reference": "#PWR034",
+                "x_position": 128.27,
+                "y_position": 143.51,
                 "rotation": 0
             }
         ],
         "sheet_files": []
     },
     {
-        "sheet_name": "ControllersExtensions",
-        "sheet_path": "D:/code/PCB/TheDevBoard\\ControllersExtensions.kicad_sch",
+        "sheet_name": "Power",
+        "sheet_path": "D:\\code\\PCB\\TheDevBoard\\Power.kicad_sch",
         "paper": {
             "paper_height": 210,
             "paper_width": 297
         },
-        "symbols": [
-            {
-                "reference": "J2",
-                "x_position": 38.1,
-                "y_position": 99.06,
-                "rotation": 0
-            },
-            {
-                "reference": "Flash1",
-                "x_position": 257.81,
-                "y_position": 31.75,
-                "rotation": 0
-            },
-            {
-                "reference": "J1",
-                "x_position": 38.1,
-                "y_position": 45.72,
-                "rotation": 0
-            }
-        ],
+        "symbols": [],
         "sheet_files": []
     },
     {
         "sheet_name": "ESP32-S3-Mini-WIFI",
-        "sheet_path": "D:/code/PCB/TheDevBoard\\Wifi.kicad_sch",
+        "sheet_path": "D:\\code\\PCB\\TheDevBoard\\Wifi.kicad_sch",
         "paper": {
             "paper_height": 210,
             "paper_width": 297
@@ -133,18 +485,121 @@
                 "x_position": 137.16,
                 "y_position": 99.06,
                 "rotation": 0
+            },
+            {
+                "reference": "R10",
+                "x_position": 64.77,
+                "y_position": 46.99,
+                "rotation": 0
+            },
+            {
+                "reference": "R9",
+                "x_position": 55.88,
+                "y_position": 46.99,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR029",
+                "x_position": 55.88,
+                "y_position": 54.61,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR031",
+                "x_position": 64.77,
+                "y_position": 54.61,
+                "rotation": 0
+            },
+            {
+                "reference": "C17",
+                "x_position": 71.12,
+                "y_position": 34.29,
+                "rotation": 0
+            },
+            {
+                "reference": "ESP",
+                "x_position": 30.48,
+                "y_position": 43.18,
+                "rotation": 0
+            },
+            {
+                "reference": "C19",
+                "x_position": 107.95,
+                "y_position": 34.29,
+                "rotation": 0
+            },
+            {
+                "reference": "C18",
+                "x_position": 99.06,
+                "y_position": 34.29,
+                "rotation": 0
+            },
+            {
+                "reference": "U6",
+                "x_position": 85.09,
+                "y_position": 27.94,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR033",
+                "x_position": 99.06,
+                "y_position": 25.4,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR030",
+                "x_position": 57.15,
+                "y_position": 24.13,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR032",
+                "x_position": 85.09,
+                "y_position": 41.91,
+                "rotation": 0
+            },
+            {
+                "reference": "#PWR028",
+                "x_position": 25.4,
+                "y_position": 69.85,
+                "rotation": 0
             }
         ],
         "sheet_files": []
     },
     {
         "sheet_name": "FPGA",
-        "sheet_path": "D:/code/PCB/TheDevBoard\\FPGA.kicad_sch",
+        "sheet_path": "D:\\code\\PCB\\TheDevBoard\\FPGA.kicad_sch",
         "paper": {
             "paper_height": 210,
             "paper_width": 297
         },
-        "symbols": [],
+        "symbols": [
+            {
+                "reference": "U3",
+                "x_position": 49.53,
+                "y_position": 54.61,
+                "rotation": 0
+            },
+            {
+                "reference": "U3",
+                "x_position": 140.97,
+                "y_position": 45.72,
+                "rotation": 0
+            },
+            {
+                "reference": "U3",
+                "x_position": 135.89,
+                "y_position": 105.41,
+                "rotation": 90
+            },
+            {
+                "reference": "U3",
+                "x_position": 50.8,
+                "y_position": 119.38,
+                "rotation": 0
+            }
+        ],
         "sheet_files": []
     }
 ]

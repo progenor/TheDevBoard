@@ -10225,7 +10225,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "064cc77a-b1e1-4bcb-b5de-3dcc552e7369")
-		(property "Reference" "Flash"
+		(property "Reference" "Flash1"
 			(at 106.68 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10307,7 +10307,7 @@
 		(instances
 			(project "TheDevBoard"
 				(path "/962e0ac6-7545-4a58-b6cb-cae1d23e787f/83027dc2-8dcc-4189-b732-ecb78df2ee53"
-					(reference "Flash")
+					(reference "Flash1")
 					(unit 1)
 				)
 			)
@@ -10964,7 +10964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a4ef85b-ae01-4f2d-b0e0-ce8943e0eb69")
-		(property "Reference" "Debug"
+		(property "Reference" "Debug1"
 			(at 113.665 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11029,7 +11029,7 @@
 		(instances
 			(project "TheDevBoard"
 				(path "/962e0ac6-7545-4a58-b6cb-cae1d23e787f/83027dc2-8dcc-4189-b732-ecb78df2ee53"
-					(reference "Debug")
+					(reference "Debug1")
 					(unit 1)
 				)
 			)
@@ -13485,7 +13485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ed34536-cdc8-421e-81cd-7e9953ffb6bd")
-		(property "Reference" "Pico"
+		(property "Reference" "Pico1"
 			(at 30.48 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13592,7 +13592,7 @@
 		(instances
 			(project "TheDevBoard"
 				(path "/962e0ac6-7545-4a58-b6cb-cae1d23e787f/83027dc2-8dcc-4189-b732-ecb78df2ee53"
-					(reference "Pico")
+					(reference "Pico1")
 					(unit 1)
 				)
 			)

@@ -3969,7 +3969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "712b58a2-939e-4bb0-881d-a5e4c23f40b1")
-		(property "Reference" "ESP"
+		(property "Reference" "ESP1"
 			(at 30.48 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4076,7 +4076,7 @@
 		(instances
 			(project "TheDevBoard"
 				(path "/962e0ac6-7545-4a58-b6cb-cae1d23e787f/c6b54007-79c8-40fd-afa4-387886b604be"
-					(reference "ESP")
+					(reference "ESP1")
 					(unit 1)
 				)
 			)
