@@ -1,0 +1,251 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "962e0ac6-7545-4a58-b6cb-cae1d23e787f")
+	(paper "A4")
+	(title_block
+		(title "TheDEVBoard")
+		(date "2026-06-03")
+		(rev "0")
+		(company "TFS Robotics")
+		(comment 1 "progenor")
+	)
+	(lib_symbols)
+	(sheet
+		(at 189.23 123.19)
+		(size 39.37 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "74cdae6e-117b-472f-b18c-40b551ce970e")
+		(property "Sheetname" "Sensors"
+			(at 189.23 122.4784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 189.23 156.7946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TheDevBoard"
+				(path "/962e0ac6-7545-4a58-b6cb-cae1d23e787f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 50.8)
+		(size 34.29 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "83027dc2-8dcc-4189-b732-ecb78df2ee53")
+		(property "Sheetname" "RP2350"
+			(at 30.48 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RP2350.kicad_sch"
+			(at 30.48 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TheDevBoard"
+				(path "/962e0ac6-7545-4a58-b6cb-cae1d23e787f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 62.23)
+		(size 35.56 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ae0a7a8a-1df6-495f-aa05-5731f69543ea")
+		(property "Sheetname" "Power"
+			(at 114.3 61.5184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 114.3 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TheDevBoard"
+				(path "/962e0ac6-7545-4a58-b6cb-cae1d23e787f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 127)
+		(size 40.64 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 74 218 1)
+		)
+		(uuid "c6b54007-79c8-40fd-afa4-387886b604be")
+		(property "Sheetname" "ESP32-S3-Mini-WIFI"
+			(at 31.75 126.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Wifi.kicad_sch"
+			(at 31.75 170.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TheDevBoard"
+				(path "/962e0ac6-7545-4a58-b6cb-cae1d23e787f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.93 59.69)
+		(size 34.29 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "deba09e8-545f-4a4a-8546-25fcc5ebb77e")
+		(property "Sheetname" "FPGA"
+			(at 201.93 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA.kicad_sch"
+			(at 201.93 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TheDevBoard"
+				(path "/962e0ac6-7545-4a58-b6cb-cae1d23e787f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

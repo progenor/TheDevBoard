@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b7c88e39-00cb-4b38-8a55-f0036ee698b3")
+	(paper "A4")
+	(title_block
+		(title "TheDEVBoard")
+		(date "2026-06-03")
+		(rev "0")
+		(company "TFS Robotics")
+		(comment 1 "progenor")
+	)
+	(lib_symbols)
+)

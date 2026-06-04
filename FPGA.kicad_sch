@@ -1,0 +1,1931 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f6f0e7f3-4fcb-4ac7-99c2-b3c3ba731bba")
+	(paper "A4")
+	(title_block
+		(title "TheDEVBoard")
+		(date "2026-06-03")
+		(rev "0")
+		(company "TFS Robotics")
+		(comment 1 "progenor")
+	)
+	(lib_symbols
+		(symbol "FPGA_Lattice:ICE40UP5K-SG48ITR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -8.89 -29.21 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ICE40UP5K-SG48ITR"
+				(at 0 -31.75 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+				(at 0 -34.29 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
+				(at -10.16 25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "FPGA programmable logic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "QFN*1EP*7x7mm*P0.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ICE40UP5K-SG48ITR_1_1"
+				(rectangle
+					(start -7.62 25.4)
+					(end 7.62 -27.94)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 12.7 0)
+					(length 2.54)
+					(name "IOT_37a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 15.24 0)
+					(length 2.54)
+					(name "IOT_36b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "IOT_39a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "IOT_38b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "IOT_41a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IOT_42b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "IOT_43a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 27.94 270)
+					(length 2.54)
+					(name "VCCIO_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "IOT_44b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "IOT_46b_G0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "IOT_48b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "IOT_45a_G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -15.24 0)
+					(length 2.54)
+					(name "IOT_50b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 -20.32 0)
+					(length 2.54)
+					(name "RGB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 -22.86 0)
+					(length 2.54)
+					(name "RGB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 -25.4 0)
+					(length 2.54)
+					(name "RGB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -17.78 0)
+					(length 2.54)
+					(name "IOT_51a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -12.7 0)
+					(length 2.54)
+					(name "IOT_49a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ICE40UP5K-SG48ITR_2_1"
+				(rectangle
+					(start -10.16 25.4)
+					(end 10.16 -25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "IOB_13b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 17.78 180)
+					(length 2.54)
+					(name "CDONE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 17.78 0)
+					(length 2.54)
+					(name "~{CRESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "IOB_16a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "IOB_18a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "IOB_20a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "IOB_22a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "IOB_24a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "IOB_32a_SPI_SO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -20.32 0)
+					(length 2.54)
+					(name "IOB_34a_SPI_SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -22.86 0)
+					(length 2.54)
+					(name "IOB_35b_SPI_SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -17.78 0)
+					(length 2.54)
+					(name "IOB_33b_SPI_SI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "IOB_31b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "IOB_29b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "IOB_25b_G3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "IOB_23b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 27.94 270)
+					(length 2.54)
+					(name "SPI_VCCIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ICE40UP5K-SG48ITR_3_1"
+				(rectangle
+					(start -7.62 15.24)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 17.78 270)
+					(length 2.54)
+					(name "VCCIO_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "IOB_6a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -12.7 0)
+					(length 2.54)
+					(name "IOB_9b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "IOB_8a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "IOB_3b_G6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "IOB_5b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "IOB_0a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IOB_2a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "IOB_4a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ICE40UP5K-SG48ITR_4_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VPP_2V5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "VCCPLL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 2.54)
+					(hide yes)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "FPGA_Lattice:ICE40UP5K-SG48ITR")
+		(at 49.53 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e6e5241-7a75-4ae8-bffd-8b16597dab78")
+		(property "Reference" "U3"
+			(at 58.42 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ICE40UP5K-SG48ITR"
+			(at 58.42 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_ThermalVias"
+			(at 49.53 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
+			(at 39.37 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"
+			(at 49.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "43"
+			(uuid "51c9962e-dc51-4b05-b00d-8359644b61ff")
+		)
+		(pin "1"
+			(uuid "14aaba74-bd8b-487c-bbd2-0a084b01b51c")
+		)
+		(pin "44"
+			(uuid "b53c7a01-7159-48c3-b7fb-94be3ba3e5b4")
+		)
+		(pin "22"
+			(uuid "13c0f9cc-dc9c-4471-8b4d-7540ba9ef6d7")
+		)
+		(pin "31"
+			(uuid "ebd7c798-2457-4aed-8b55-625f003c4c01")
+		)
+		(pin "23"
+			(uuid "3c67d225-557e-4e9a-b8fb-29dbc1f8c1fb")
+		)
+		(pin "25"
+			(uuid "37c018c3-89c6-47ba-b302-4d9cbf26e44b")
+		)
+		(pin "27"
+			(uuid "584aba6b-4ce3-4bcb-9cf1-4d7bb8b6fb21")
+		)
+		(pin "28"
+			(uuid "b16741a6-8a01-4144-a661-6d1e9fd1aa0c")
+		)
+		(pin "42"
+			(uuid "a54b925f-b511-4bee-8469-425b2eca7a70")
+		)
+		(pin "8"
+			(uuid "7e0d81b5-37d1-40f7-b6fe-06657f7fb6a7")
+		)
+		(pin "11"
+			(uuid "4895fab6-91f8-4fd6-b0a5-7daa6ae993a9")
+		)
+		(pin "13"
+			(uuid "fd1c7e3a-402f-4525-ab65-6868a7fbd4d7")
+		)
+		(pin "20"
+			(uuid "5d22b127-b1d4-4c8f-86a4-c7e1694582d3")
+		)
+		(pin "35"
+			(uuid "a3cf1d87-9ef4-4b5d-bc8d-374bfbd21528")
+		)
+		(pin "40"
+			(uuid "0c11eb73-ac9a-4491-939a-5f28807eb3a2")
+		)
+		(pin "34"
+			(uuid "7c425fa1-ef45-403b-a10e-f1e51e584563")
+		)
+		(pin "6"
+			(uuid "3f3ed1f3-d51a-46cc-b19e-80322d529255")
+		)
+		(pin "36"
+			(uuid "eedc5c07-0b4c-4586-bad7-20889f08df20")
+		)
+		(pin "18"
+			(uuid "1f22b972-35dd-49c8-9546-3e621d12d70d")
+		)
+		(pin "2"
+			(uuid "3ce8ef08-996f-40de-925d-4de4dbc795f2")
+		)
+		(pin "19"
+			(uuid "48061ba4-365f-4982-85e5-b96d922dadcb")
+		)
+		(pin "33"
+			(uuid "b74ae134-ab52-46d2-ac91-17daf40abdb6")
+		)
+		(pin "39"
+			(uuid "9e5b4dbd-a49c-4e57-b7a6-7d15ef417c74")
+		)
+		(pin "14"
+			(uuid "4b9737f8-beda-4c40-bdcb-ee676a25db0e")
+		)
+		(pin "26"
+			(uuid "6b0bf6ab-42b9-47f0-a085-dec2650a9cbf")
+		)
+		(pin "16"
+			(uuid "f11dbb57-664c-425b-8cf7-eab742e167a0")
+		)
+		(pin "32"
+			(uuid "dba6335a-a779-4522-881f-186f6a2cc83f")
+		)
+		(pin "37"
+			(uuid "607eb66b-439b-42f8-922c-2bfa727d4d89")
+		)
+		(pin "15"
+			(uuid "29c95d66-d7f8-4557-b040-b4ff6ddc0ebc")
+		)
+		(pin "3"
+			(uuid "33b7cfc1-8bae-4cde-b33b-bbb58eefbd55")
+		)
+		(pin "9"
+			(uuid "0f22cf5a-d242-441b-91ee-85686347cbc3")
+		)
+		(pin "12"
+			(uuid "3e62c043-27fc-4f87-808d-407b40b95d61")
+		)
+		(pin "41"
+			(uuid "c35b70ab-77b3-4d75-bb01-e0a51f31133d")
+		)
+		(pin "21"
+			(uuid "1f79db16-42f2-4296-850f-ba491b52ec2d")
+		)
+		(pin "17"
+			(uuid "081f236f-f048-41ca-9638-69b0526764db")
+		)
+		(pin "10"
+			(uuid "e7170788-1d90-4d7d-8002-d63ba424b850")
+		)
+		(pin "45"
+			(uuid "2cc1d0c8-5e9b-44ba-a12f-5994b6b673a3")
+		)
+		(pin "46"
+			(uuid "a3f4a46c-61c3-4ca6-8467-d8f6537920c6")
+		)
+		(pin "48"
+			(uuid "1dd3e7d4-7a19-4436-82eb-c1c01d8ff48b")
+		)
+		(pin "5"
+			(uuid "809ebd52-7787-4170-8948-0ed823e0506d")
+		)
+		(pin "24"
+			(uuid "162e3172-965b-4987-8baa-68a7a18aa4a3")
+		)
+		(pin "4"
+			(uuid "45fd264e-cf98-4b09-86a6-e21e7d169f11")
+		)
+		(pin "38"
+			(uuid "afab5809-1f23-43e5-848c-008519d0b9ee")
+		)
+		(pin "29"
+			(uuid "15f1cd25-bd2b-4317-b115-2d95420988aa")
+		)
+		(pin "30"
+			(uuid "b8e7d5d2-1012-45cf-bfba-ad68c2c2c848")
+		)
+		(pin "7"
+			(uuid "6a840b56-815c-476c-aa03-32737d028a22")
+		)
+		(pin "47"
+			(uuid "7e758382-fca4-4cff-bc05-c50a369c8a73")
+		)
+		(pin "49"
+			(uuid "00a9224d-ac50-455c-94cf-bc2727c57d25")
+		)
+		(instances
+			(project "TheDevBoard"
+				(path "/962e0ac6-7545-4a58-b6cb-cae1d23e787f/deba09e8-545f-4a4a-8546-25fcc5ebb77e"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA_Lattice:ICE40UP5K-SG48ITR")
+		(at 140.97 45.72 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "707e25f2-c765-4437-be3d-4e5328fed261")
+		(property "Reference" "U3"
+			(at 149.86 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ICE40UP5K-SG48ITR"
+			(at 149.86 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_ThermalVias"
+			(at 140.97 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
+			(at 130.81 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"
+			(at 140.97 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "43"
+			(uuid "51c9962e-dc51-4b05-b00d-8359644b61ff")
+		)
+		(pin "1"
+			(uuid "14aaba74-bd8b-487c-bbd2-0a084b01b51c")
+		)
+		(pin "44"
+			(uuid "b53c7a01-7159-48c3-b7fb-94be3ba3e5b4")
+		)
+		(pin "22"
+			(uuid "13c0f9cc-dc9c-4471-8b4d-7540ba9ef6d7")
+		)
+		(pin "31"
+			(uuid "ebd7c798-2457-4aed-8b55-625f003c4c01")
+		)
+		(pin "23"
+			(uuid "3c67d225-557e-4e9a-b8fb-29dbc1f8c1fb")
+		)
+		(pin "25"
+			(uuid "37c018c3-89c6-47ba-b302-4d9cbf26e44b")
+		)
+		(pin "27"
+			(uuid "584aba6b-4ce3-4bcb-9cf1-4d7bb8b6fb21")
+		)
+		(pin "28"
+			(uuid "b16741a6-8a01-4144-a661-6d1e9fd1aa0c")
+		)
+		(pin "42"
+			(uuid "a54b925f-b511-4bee-8469-425b2eca7a70")
+		)
+		(pin "8"
+			(uuid "7e0d81b5-37d1-40f7-b6fe-06657f7fb6a7")
+		)
+		(pin "11"
+			(uuid "4895fab6-91f8-4fd6-b0a5-7daa6ae993a9")
+		)
+		(pin "13"
+			(uuid "fd1c7e3a-402f-4525-ab65-6868a7fbd4d7")
+		)
+		(pin "20"
+			(uuid "5d22b127-b1d4-4c8f-86a4-c7e1694582d3")
+		)
+		(pin "35"
+			(uuid "a3cf1d87-9ef4-4b5d-bc8d-374bfbd21528")
+		)
+		(pin "40"
+			(uuid "0c11eb73-ac9a-4491-939a-5f28807eb3a2")
+		)
+		(pin "34"
+			(uuid "7c425fa1-ef45-403b-a10e-f1e51e584563")
+		)
+		(pin "6"
+			(uuid "3f3ed1f3-d51a-46cc-b19e-80322d529255")
+		)
+		(pin "36"
+			(uuid "eedc5c07-0b4c-4586-bad7-20889f08df20")
+		)
+		(pin "18"
+			(uuid "1f22b972-35dd-49c8-9546-3e621d12d70d")
+		)
+		(pin "2"
+			(uuid "3ce8ef08-996f-40de-925d-4de4dbc795f2")
+		)
+		(pin "19"
+			(uuid "48061ba4-365f-4982-85e5-b96d922dadcb")
+		)
+		(pin "33"
+			(uuid "b74ae134-ab52-46d2-ac91-17daf40abdb6")
+		)
+		(pin "39"
+			(uuid "9e5b4dbd-a49c-4e57-b7a6-7d15ef417c74")
+		)
+		(pin "14"
+			(uuid "4b9737f8-beda-4c40-bdcb-ee676a25db0e")
+		)
+		(pin "26"
+			(uuid "6b0bf6ab-42b9-47f0-a085-dec2650a9cbf")
+		)
+		(pin "16"
+			(uuid "f11dbb57-664c-425b-8cf7-eab742e167a0")
+		)
+		(pin "32"
+			(uuid "dba6335a-a779-4522-881f-186f6a2cc83f")
+		)
+		(pin "37"
+			(uuid "607eb66b-439b-42f8-922c-2bfa727d4d89")
+		)
+		(pin "15"
+			(uuid "29c95d66-d7f8-4557-b040-b4ff6ddc0ebc")
+		)
+		(pin "3"
+			(uuid "33b7cfc1-8bae-4cde-b33b-bbb58eefbd55")
+		)
+		(pin "9"
+			(uuid "0f22cf5a-d242-441b-91ee-85686347cbc3")
+		)
+		(pin "12"
+			(uuid "3e62c043-27fc-4f87-808d-407b40b95d61")
+		)
+		(pin "41"
+			(uuid "c35b70ab-77b3-4d75-bb01-e0a51f31133d")
+		)
+		(pin "21"
+			(uuid "1f79db16-42f2-4296-850f-ba491b52ec2d")
+		)
+		(pin "17"
+			(uuid "081f236f-f048-41ca-9638-69b0526764db")
+		)
+		(pin "10"
+			(uuid "e7170788-1d90-4d7d-8002-d63ba424b850")
+		)
+		(pin "45"
+			(uuid "2cc1d0c8-5e9b-44ba-a12f-5994b6b673a3")
+		)
+		(pin "46"
+			(uuid "a3f4a46c-61c3-4ca6-8467-d8f6537920c6")
+		)
+		(pin "48"
+			(uuid "1dd3e7d4-7a19-4436-82eb-c1c01d8ff48b")
+		)
+		(pin "5"
+			(uuid "809ebd52-7787-4170-8948-0ed823e0506d")
+		)
+		(pin "24"
+			(uuid "162e3172-965b-4987-8baa-68a7a18aa4a3")
+		)
+		(pin "4"
+			(uuid "45fd264e-cf98-4b09-86a6-e21e7d169f11")
+		)
+		(pin "38"
+			(uuid "afab5809-1f23-43e5-848c-008519d0b9ee")
+		)
+		(pin "29"
+			(uuid "15f1cd25-bd2b-4317-b115-2d95420988aa")
+		)
+		(pin "30"
+			(uuid "b8e7d5d2-1012-45cf-bfba-ad68c2c2c848")
+		)
+		(pin "7"
+			(uuid "6a840b56-815c-476c-aa03-32737d028a22")
+		)
+		(pin "47"
+			(uuid "7e758382-fca4-4cff-bc05-c50a369c8a73")
+		)
+		(pin "49"
+			(uuid "00a9224d-ac50-455c-94cf-bc2727c57d25")
+		)
+		(instances
+			(project "TheDevBoard"
+				(path "/962e0ac6-7545-4a58-b6cb-cae1d23e787f/deba09e8-545f-4a4a-8546-25fcc5ebb77e"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA_Lattice:ICE40UP5K-SG48ITR")
+		(at 135.89 105.41 90)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76a544d4-2ac3-4899-bde4-3179235312d7")
+		(property "Reference" "U3"
+			(at 135.89 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ICE40UP5K-SG48ITR"
+			(at 135.89 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_ThermalVias"
+			(at 170.18 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
+			(at 110.49 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"
+			(at 135.89 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "43"
+			(uuid "51c9962e-dc51-4b05-b00d-8359644b61ff")
+		)
+		(pin "1"
+			(uuid "14aaba74-bd8b-487c-bbd2-0a084b01b51c")
+		)
+		(pin "44"
+			(uuid "b53c7a01-7159-48c3-b7fb-94be3ba3e5b4")
+		)
+		(pin "22"
+			(uuid "13c0f9cc-dc9c-4471-8b4d-7540ba9ef6d7")
+		)
+		(pin "31"
+			(uuid "ebd7c798-2457-4aed-8b55-625f003c4c01")
+		)
+		(pin "23"
+			(uuid "3c67d225-557e-4e9a-b8fb-29dbc1f8c1fb")
+		)
+		(pin "25"
+			(uuid "37c018c3-89c6-47ba-b302-4d9cbf26e44b")
+		)
+		(pin "27"
+			(uuid "584aba6b-4ce3-4bcb-9cf1-4d7bb8b6fb21")
+		)
+		(pin "28"
+			(uuid "b16741a6-8a01-4144-a661-6d1e9fd1aa0c")
+		)
+		(pin "42"
+			(uuid "a54b925f-b511-4bee-8469-425b2eca7a70")
+		)
+		(pin "8"
+			(uuid "7e0d81b5-37d1-40f7-b6fe-06657f7fb6a7")
+		)
+		(pin "11"
+			(uuid "4895fab6-91f8-4fd6-b0a5-7daa6ae993a9")
+		)
+		(pin "13"
+			(uuid "fd1c7e3a-402f-4525-ab65-6868a7fbd4d7")
+		)
+		(pin "20"
+			(uuid "5d22b127-b1d4-4c8f-86a4-c7e1694582d3")
+		)
+		(pin "35"
+			(uuid "a3cf1d87-9ef4-4b5d-bc8d-374bfbd21528")
+		)
+		(pin "40"
+			(uuid "0c11eb73-ac9a-4491-939a-5f28807eb3a2")
+		)
+		(pin "34"
+			(uuid "7c425fa1-ef45-403b-a10e-f1e51e584563")
+		)
+		(pin "6"
+			(uuid "3f3ed1f3-d51a-46cc-b19e-80322d529255")
+		)
+		(pin "36"
+			(uuid "eedc5c07-0b4c-4586-bad7-20889f08df20")
+		)
+		(pin "18"
+			(uuid "1f22b972-35dd-49c8-9546-3e621d12d70d")
+		)
+		(pin "2"
+			(uuid "3ce8ef08-996f-40de-925d-4de4dbc795f2")
+		)
+		(pin "19"
+			(uuid "48061ba4-365f-4982-85e5-b96d922dadcb")
+		)
+		(pin "33"
+			(uuid "b74ae134-ab52-46d2-ac91-17daf40abdb6")
+		)
+		(pin "39"
+			(uuid "9e5b4dbd-a49c-4e57-b7a6-7d15ef417c74")
+		)
+		(pin "14"
+			(uuid "4b9737f8-beda-4c40-bdcb-ee676a25db0e")
+		)
+		(pin "26"
+			(uuid "6b0bf6ab-42b9-47f0-a085-dec2650a9cbf")
+		)
+		(pin "16"
+			(uuid "f11dbb57-664c-425b-8cf7-eab742e167a0")
+		)
+		(pin "32"
+			(uuid "dba6335a-a779-4522-881f-186f6a2cc83f")
+		)
+		(pin "37"
+			(uuid "607eb66b-439b-42f8-922c-2bfa727d4d89")
+		)
+		(pin "15"
+			(uuid "29c95d66-d7f8-4557-b040-b4ff6ddc0ebc")
+		)
+		(pin "3"
+			(uuid "33b7cfc1-8bae-4cde-b33b-bbb58eefbd55")
+		)
+		(pin "9"
+			(uuid "0f22cf5a-d242-441b-91ee-85686347cbc3")
+		)
+		(pin "12"
+			(uuid "3e62c043-27fc-4f87-808d-407b40b95d61")
+		)
+		(pin "41"
+			(uuid "c35b70ab-77b3-4d75-bb01-e0a51f31133d")
+		)
+		(pin "21"
+			(uuid "1f79db16-42f2-4296-850f-ba491b52ec2d")
+		)
+		(pin "17"
+			(uuid "081f236f-f048-41ca-9638-69b0526764db")
+		)
+		(pin "10"
+			(uuid "e7170788-1d90-4d7d-8002-d63ba424b850")
+		)
+		(pin "45"
+			(uuid "2cc1d0c8-5e9b-44ba-a12f-5994b6b673a3")
+		)
+		(pin "46"
+			(uuid "a3f4a46c-61c3-4ca6-8467-d8f6537920c6")
+		)
+		(pin "48"
+			(uuid "1dd3e7d4-7a19-4436-82eb-c1c01d8ff48b")
+		)
+		(pin "5"
+			(uuid "809ebd52-7787-4170-8948-0ed823e0506d")
+		)
+		(pin "24"
+			(uuid "162e3172-965b-4987-8baa-68a7a18aa4a3")
+		)
+		(pin "4"
+			(uuid "45fd264e-cf98-4b09-86a6-e21e7d169f11")
+		)
+		(pin "38"
+			(uuid "afab5809-1f23-43e5-848c-008519d0b9ee")
+		)
+		(pin "29"
+			(uuid "15f1cd25-bd2b-4317-b115-2d95420988aa")
+		)
+		(pin "30"
+			(uuid "b8e7d5d2-1012-45cf-bfba-ad68c2c2c848")
+		)
+		(pin "7"
+			(uuid "6a840b56-815c-476c-aa03-32737d028a22")
+		)
+		(pin "47"
+			(uuid "7e758382-fca4-4cff-bc05-c50a369c8a73")
+		)
+		(pin "49"
+			(uuid "00a9224d-ac50-455c-94cf-bc2727c57d25")
+		)
+		(instances
+			(project "TheDevBoard"
+				(path "/962e0ac6-7545-4a58-b6cb-cae1d23e787f/deba09e8-545f-4a4a-8546-25fcc5ebb77e"
+					(reference "U3")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA_Lattice:ICE40UP5K-SG48ITR")
+		(at 50.8 119.38 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7819679-fe17-463c-93e6-cf7674e7b014")
+		(property "Reference" "U3"
+			(at 50.8 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ICE40UP5K-SG48ITR"
+			(at 50.8 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_ThermalVias"
+			(at 50.8 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
+			(at 40.64 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"
+			(at 50.8 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "43"
+			(uuid "51c9962e-dc51-4b05-b00d-8359644b61ff")
+		)
+		(pin "1"
+			(uuid "14aaba74-bd8b-487c-bbd2-0a084b01b51c")
+		)
+		(pin "44"
+			(uuid "b53c7a01-7159-48c3-b7fb-94be3ba3e5b4")
+		)
+		(pin "22"
+			(uuid "13c0f9cc-dc9c-4471-8b4d-7540ba9ef6d7")
+		)
+		(pin "31"
+			(uuid "ebd7c798-2457-4aed-8b55-625f003c4c01")
+		)
+		(pin "23"
+			(uuid "3c67d225-557e-4e9a-b8fb-29dbc1f8c1fb")
+		)
+		(pin "25"
+			(uuid "37c018c3-89c6-47ba-b302-4d9cbf26e44b")
+		)
+		(pin "27"
+			(uuid "584aba6b-4ce3-4bcb-9cf1-4d7bb8b6fb21")
+		)
+		(pin "28"
+			(uuid "b16741a6-8a01-4144-a661-6d1e9fd1aa0c")
+		)
+		(pin "42"
+			(uuid "a54b925f-b511-4bee-8469-425b2eca7a70")
+		)
+		(pin "8"
+			(uuid "7e0d81b5-37d1-40f7-b6fe-06657f7fb6a7")
+		)
+		(pin "11"
+			(uuid "4895fab6-91f8-4fd6-b0a5-7daa6ae993a9")
+		)
+		(pin "13"
+			(uuid "fd1c7e3a-402f-4525-ab65-6868a7fbd4d7")
+		)
+		(pin "20"
+			(uuid "5d22b127-b1d4-4c8f-86a4-c7e1694582d3")
+		)
+		(pin "35"
+			(uuid "a3cf1d87-9ef4-4b5d-bc8d-374bfbd21528")
+		)
+		(pin "40"
+			(uuid "0c11eb73-ac9a-4491-939a-5f28807eb3a2")
+		)
+		(pin "34"
+			(uuid "7c425fa1-ef45-403b-a10e-f1e51e584563")
+		)
+		(pin "6"
+			(uuid "3f3ed1f3-d51a-46cc-b19e-80322d529255")
+		)
+		(pin "36"
+			(uuid "eedc5c07-0b4c-4586-bad7-20889f08df20")
+		)
+		(pin "18"
+			(uuid "1f22b972-35dd-49c8-9546-3e621d12d70d")
+		)
+		(pin "2"
+			(uuid "3ce8ef08-996f-40de-925d-4de4dbc795f2")
+		)
+		(pin "19"
+			(uuid "48061ba4-365f-4982-85e5-b96d922dadcb")
+		)
+		(pin "33"
+			(uuid "b74ae134-ab52-46d2-ac91-17daf40abdb6")
+		)
+		(pin "39"
+			(uuid "9e5b4dbd-a49c-4e57-b7a6-7d15ef417c74")
+		)
+		(pin "14"
+			(uuid "4b9737f8-beda-4c40-bdcb-ee676a25db0e")
+		)
+		(pin "26"
+			(uuid "6b0bf6ab-42b9-47f0-a085-dec2650a9cbf")
+		)
+		(pin "16"
+			(uuid "f11dbb57-664c-425b-8cf7-eab742e167a0")
+		)
+		(pin "32"
+			(uuid "dba6335a-a779-4522-881f-186f6a2cc83f")
+		)
+		(pin "37"
+			(uuid "607eb66b-439b-42f8-922c-2bfa727d4d89")
+		)
+		(pin "15"
+			(uuid "29c95d66-d7f8-4557-b040-b4ff6ddc0ebc")
+		)
+		(pin "3"
+			(uuid "33b7cfc1-8bae-4cde-b33b-bbb58eefbd55")
+		)
+		(pin "9"
+			(uuid "0f22cf5a-d242-441b-91ee-85686347cbc3")
+		)
+		(pin "12"
+			(uuid "3e62c043-27fc-4f87-808d-407b40b95d61")
+		)
+		(pin "41"
+			(uuid "c35b70ab-77b3-4d75-bb01-e0a51f31133d")
+		)
+		(pin "21"
+			(uuid "1f79db16-42f2-4296-850f-ba491b52ec2d")
+		)
+		(pin "17"
+			(uuid "081f236f-f048-41ca-9638-69b0526764db")
+		)
+		(pin "10"
+			(uuid "e7170788-1d90-4d7d-8002-d63ba424b850")
+		)
+		(pin "45"
+			(uuid "2cc1d0c8-5e9b-44ba-a12f-5994b6b673a3")
+		)
+		(pin "46"
+			(uuid "a3f4a46c-61c3-4ca6-8467-d8f6537920c6")
+		)
+		(pin "48"
+			(uuid "1dd3e7d4-7a19-4436-82eb-c1c01d8ff48b")
+		)
+		(pin "5"
+			(uuid "809ebd52-7787-4170-8948-0ed823e0506d")
+		)
+		(pin "24"
+			(uuid "162e3172-965b-4987-8baa-68a7a18aa4a3")
+		)
+		(pin "4"
+			(uuid "45fd264e-cf98-4b09-86a6-e21e7d169f11")
+		)
+		(pin "38"
+			(uuid "afab5809-1f23-43e5-848c-008519d0b9ee")
+		)
+		(pin "29"
+			(uuid "15f1cd25-bd2b-4317-b115-2d95420988aa")
+		)
+		(pin "30"
+			(uuid "b8e7d5d2-1012-45cf-bfba-ad68c2c2c848")
+		)
+		(pin "7"
+			(uuid "6a840b56-815c-476c-aa03-32737d028a22")
+		)
+		(pin "47"
+			(uuid "7e758382-fca4-4cff-bc05-c50a369c8a73")
+		)
+		(pin "49"
+			(uuid "00a9224d-ac50-455c-94cf-bc2727c57d25")
+		)
+		(instances
+			(project "TheDevBoard"
+				(path "/962e0ac6-7545-4a58-b6cb-cae1d23e787f/deba09e8-545f-4a4a-8546-25fcc5ebb77e"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+)

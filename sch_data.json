@@ -1,0 +1,150 @@
+[
+    {
+        "sheet_name": "Main Sheet",
+        "sheet_path": "D:/code/PCB/TheDevBoard/TheDevBoard.kicad_sch",
+        "paper": {
+            "paper_height": 210,
+            "paper_width": 297
+        },
+        "symbols": [
+            {
+                "reference": "U3",
+                "x_position": 146.05,
+                "y_position": 87.63,
+                "rotation": 0
+            }
+        ],
+        "sheet_files": [
+            {
+                "sheet_name": "Sensors",
+                "sheet_file": "Sensors.kicad_sch",
+                "sheet_path": "D:/code/PCB/TheDevBoard\\Sensors.kicad_sch",
+                "x_position": 189.23,
+                "y_position": 156.7946,
+                "rotation": 0
+            },
+            {
+                "sheet_name": "RP2350",
+                "sheet_file": "RP2350.kicad_sch",
+                "sheet_path": "D:/code/PCB/TheDevBoard\\RP2350.kicad_sch",
+                "x_position": 30.48,
+                "y_position": 95.8346,
+                "rotation": 0
+            },
+            {
+                "sheet_name": "ControllersExtensions",
+                "sheet_file": "ControllersExtensions.kicad_sch",
+                "sheet_path": "D:/code/PCB/TheDevBoard\\ControllersExtensions.kicad_sch",
+                "x_position": 118.11,
+                "y_position": 165.6846,
+                "rotation": 0
+            },
+            {
+                "sheet_name": "ESP32-S3-Mini-WIFI",
+                "sheet_file": "Wifi.kicad_sch",
+                "sheet_path": "D:/code/PCB/TheDevBoard\\Wifi.kicad_sch",
+                "x_position": 31.75,
+                "y_position": 170.7646,
+                "rotation": 0
+            },
+            {
+                "sheet_name": "FPGA",
+                "sheet_file": "FPGA.kicad_sch",
+                "sheet_path": "D:/code/PCB/TheDevBoard\\FPGA.kicad_sch",
+                "x_position": 201.93,
+                "y_position": 100.9146,
+                "rotation": 0
+            }
+        ]
+    },
+    {
+        "sheet_name": "Sensors",
+        "sheet_path": "D:/code/PCB/TheDevBoard\\Sensors.kicad_sch",
+        "paper": {
+            "paper_height": 210,
+            "paper_width": 297
+        },
+        "symbols": [
+            {
+                "reference": "U4",
+                "x_position": 142.24,
+                "y_position": 93.98,
+                "rotation": 0
+            }
+        ],
+        "sheet_files": []
+    },
+    {
+        "sheet_name": "RP2350",
+        "sheet_path": "D:/code/PCB/TheDevBoard\\RP2350.kicad_sch",
+        "paper": {
+            "paper_height": 210,
+            "paper_width": 297
+        },
+        "symbols": [
+            {
+                "reference": "U1",
+                "x_position": 151.13,
+                "y_position": 96.52,
+                "rotation": 0
+            }
+        ],
+        "sheet_files": []
+    },
+    {
+        "sheet_name": "ControllersExtensions",
+        "sheet_path": "D:/code/PCB/TheDevBoard\\ControllersExtensions.kicad_sch",
+        "paper": {
+            "paper_height": 210,
+            "paper_width": 297
+        },
+        "symbols": [
+            {
+                "reference": "J2",
+                "x_position": 38.1,
+                "y_position": 99.06,
+                "rotation": 0
+            },
+            {
+                "reference": "Flash1",
+                "x_position": 257.81,
+                "y_position": 31.75,
+                "rotation": 0
+            },
+            {
+                "reference": "J1",
+                "x_position": 38.1,
+                "y_position": 45.72,
+                "rotation": 0
+            }
+        ],
+        "sheet_files": []
+    },
+    {
+        "sheet_name": "ESP32-S3-Mini-WIFI",
+        "sheet_path": "D:/code/PCB/TheDevBoard\\Wifi.kicad_sch",
+        "paper": {
+            "paper_height": 210,
+            "paper_width": 297
+        },
+        "symbols": [
+            {
+                "reference": "U2",
+                "x_position": 137.16,
+                "y_position": 99.06,
+                "rotation": 0
+            }
+        ],
+        "sheet_files": []
+    },
+    {
+        "sheet_name": "FPGA",
+        "sheet_path": "D:/code/PCB/TheDevBoard\\FPGA.kicad_sch",
+        "paper": {
+            "paper_height": 210,
+            "paper_width": 297
+        },
+        "symbols": [],
+        "sheet_files": []
+    }
+]
