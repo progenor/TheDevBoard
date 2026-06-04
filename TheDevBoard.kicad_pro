@@ -683,7 +683,7 @@
         "uuid": "962e0ac6-7545-4a58-b6cb-cae1d23e787f"
       }
     ],
-    "used_designators": "#PWR43-54,C17,C25-27,R13-18,Card1,SW4-5,Power1",
+    "used_designators": "#PWR11-13,#PWR32,#PWR43-54,C4-6,C17,C25-27,R13-18,Card1,SW4-5,Power1,U4",
     "variants": []
   },
   "sheets": [
